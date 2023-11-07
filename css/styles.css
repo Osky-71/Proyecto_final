@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+body {
+    background-image: url('https://getwallpapers.com/wallpaper/full/4/d/5/1519735-poker-cards-wallpaper-1920x1200-computer.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #45955C;
+    border: 4px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.img1{
+filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(164deg) brightness(107%) contrast(102%);
+}
+
+.game-container h1{
+    width: 95%;
+    max-width: 800px;
+    padding: 10px;
+    background-color: #804646;
+    border: 4px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.scoreboard{
+    width: 91%;
+    max-width: 800px;
+    padding: 10px;
+    background-color: #804646;
+    border: 4px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.scoreboard p {
+    margin: 5px 0;
+    color: #fff;
+    display: inline;
+}
+
+.cards div{
+    color: #fff;
+    display: inline;
+}
+.cards img {
+    max-width: 150px;
+    margin: 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #BF3939;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 1px 1px #000;
+    border: 3px solid #ffffff;
+    box-shadow: 2px 2px #000;
+}
+
+.game-container h1 {
+    color: #ffffff;
+}

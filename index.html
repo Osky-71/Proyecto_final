@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="icono/x-icon" href="icono/poker.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Cartas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onclick="PlayAudio()">
+    <div class="game-container">
+        <h1>Juego de Cartas</h1>
+        <button onclick="startGame()">Iniciar Juego</button>
+        <br></br>
+        <button onclick="resetGame()">
+            <img
+            src="https://cdn.icon-icons.com/icons2/2469/PNG/512/reload_refresh_update_icon_149403.png"
+            class="img1"
+            width="40px"
+            height="40px"
+            
+            alt="">
+        </button>
+        <br></br>
+        <div class="scoreboard">
+            <p>Maquina: <span id="score1">0</span></p>
+            <p>Jugador: <span id="score2">0</span></p>
+            <p>Empates: <span id="ties">0</span></p>
+        </div>
+        <br>
+        <div class="cards">
+            <img id="card1" src="path_to_your_placeholder_image.png" alt="Carta Jugador 1">
+            <img id="card2" src="path_to_your_placeholder_image.png" alt="Carta Jugador 2">
+            <br>
+            <div id="player1-name">Maquina  &nbsp;</div>
+            <div id="player2-name">&nbsp;  Jugador</div>
+        </div>
+        <br>
+        <button onclick="toggleMute()">Mute</button>
+        <button onclick="showRules()">Ayuda</button>
+    </div>
+    
+    <audio id="musica" loop>
+        <source src="sound/next.mp3" type="audio/mpeg">
+    </audio>
+    <script src="js/game.js"></script>
+</body>
+</html>
